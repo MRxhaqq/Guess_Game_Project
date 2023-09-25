@@ -1,0 +1,24 @@
+.btn-try-again {
+
+    background-color: var(--color-primary-white);
+    color: var(--color-primary-dark);
+    padding: 2rem 4rem;
+    font-size: 2rem;
+    outline: none;
+    border-style: none;
+
+    @include respond (phone) {
+        font-size: 1.6rem;
+    }
+}
+
+.btn-check {
+    margin-top: 2rem;
+    display: inline-block;
+    padding: 2rem 3rem;
+    font-size: 2rem;
+
+    @include respond (phone) {
+        font-size: 1.6rem;
+    }
+}
